@@ -30,5 +30,3 @@ JOIN sys.objects AS o
 ON TMap.object_id = o.object_id
 WHERE o.name in ('orders')
 ORDER BY distribution_id
-
--- 
